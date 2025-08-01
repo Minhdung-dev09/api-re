@@ -6,7 +6,7 @@ const app = express();
 const PORT = 4000;
 
 // ✅ 2 URL bạn muốn gọi mỗi phút
-const TARGET_URL_1 = 'https://sushilaw.io.vn';
+const TARGET_URL_1 = 'https://lawbackend-cr50.onrender.com/';
 const TARGET_URL_2 = 'https://api-call-elearning.onrender.com'; // ← sửa thành URL thứ 2 bạn muốn gọi
 
 // 📅 Tạo cron job chạy mỗi 1 phút
